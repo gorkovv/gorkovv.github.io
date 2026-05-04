@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "G4G8MHF3AX.com.govv.appnote"
+        ],
+        "components": [
+          {
+            "/": "/appnote/activate*",
+            "comment": "Appnote Pro"
+          }
+        ]
+      }
+    ]
+  }
+}
