@@ -1,12 +1,16 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.govv.appnote",
       "sha256_cert_fingerprints": [
         "FD:5C:42:1E:5A:73:4E:67:41:19:FE:20:4E:72:BE:28:F8:9F:F2:C7:6D:50:48:C3:9B:6C:B9:1D:9B:2D:5E:44",
-        "59:AE:DD:08:BA:20:1C:9B:7A:29:FB:0D:FE:BB:4E:EF:FD:A2:63:00:9F:FF:9B:07:64:28:24:86:1F:0E:DB:89"
+        "59:AE:DD:08:BA:20:1C:9B:7A:29:FB:0D:FE:BB:4E:EF:FD:A2:63:00:9F:FF:9B:07:64:28:24:86:1F:0E:DB:89",
+        "C0:C3:64:8C:C6:64:4F:6D:4F:82:0A:ED:9F:80:DC:60:B4:06:47:06:30:5F:4F:DF:D7:AB:63:C2:5E:B7:5B:84"
       ]
     }
   }
